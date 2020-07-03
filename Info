@@ -1,0 +1,31 @@
+# Command Line -
+
+1) To Build - mvnw clean install
+2) To Run - mvnw spring-boot:run
+
+# cURL Postman -
+
+curl -X GET \
+  http://localhost:8080/todo/lists \
+  -H 'Accept: */*' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Connection: keep-alive' \
+  -H 'Host: localhost:8080' \
+  -H 'Postman-Token: a5199592-3e09-4e9d-992b-81cd2c38e649,59c48105-e7e3-4821-b0ba-0338c1b59de4' \
+  -H 'User-Agent: PostmanRuntime/7.13.0' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'cache-control: no-cache'
+
+# Actuator Endpoint -
+
+http://localhost:8080/actuator/health
+http://localhost:8080/actuator/metrics/jvm.memory.used
+http://localhost:8080/actuator/configprops
+http://localhost:8080/actuator/metrics
+http://localhost:8080/actuator/loggers
+
+# Spring Boot Documentation in PDF format -
+
+https://docs.spring.io/spring-boot/docs/current/reference/pdf/spring-boot-reference.pdf
+https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#production-ready-endpoints
+
