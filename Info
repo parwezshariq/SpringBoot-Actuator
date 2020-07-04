@@ -23,8 +23,9 @@ http://localhost:8080/actuator/metrics/jvm.memory.used
 http://localhost:8080/actuator/configprops
 http://localhost:8080/actuator/metrics
 http://localhost:8080/actuator/loggers
+http://localhost:8080/actuator/beans
 
-# Spring Boot Documentation in PDF format -
+# Spring Boot Documentation Reference -
 
 https://docs.spring.io/spring-boot/docs/current/reference/pdf/spring-boot-reference.pdf
 https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#production-ready-endpoints
