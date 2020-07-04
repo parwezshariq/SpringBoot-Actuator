@@ -24,6 +24,7 @@ http://localhost:8080/actuator/configprops
 http://localhost:8080/actuator/metrics
 http://localhost:8080/actuator/loggers
 http://localhost:8080/actuator/beans
+http://localhost:8080/actuator/readiness
 
 # Spring Boot Documentation Reference -
 
